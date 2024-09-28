@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+section.type-a{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(../image/Taniti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}   
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: white;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: chocolate;
+    transition: 0.5s ease;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: chocolate
+}
+.article .btn:hover{
+    background-color: rgb(183, 89, 21);
+    transition: 0.5s ease;
+}
+section.type-b{
+    background-color: rgba(188, 207, 231, 0.25);
+    min-height: 100vh;
+    background-size: cover;
+}
+details{
+    margin-bottom: 5px;
+}
+summary{
+    background: rgba(210, 105, 30, 0.5);
+    padding: 15px;
+    text-align: center;
+}
+section.type-b h1{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    line-height: 125px;
+}
+details p{
+    background: chocolate;
+    padding: 10px;
+    text-align: center;
+}
